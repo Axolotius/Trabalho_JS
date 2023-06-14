@@ -1,0 +1,25 @@
+<h1>Cadastrar Sapatos</h1>
+
+<form action="/addshoe" method="POST">
+  <div>
+    <label for="marca">Marca</label>
+    <input type="text" id="marca" name="marca" required>
+  </div>
+  <div>
+    <label for="cor">Cor</label>
+    <input type="text" id="cor" name="cor" required>
+  </div>
+  <div>
+    <label for="tamanho">Tamanho</label>
+    <input type="text" id="tamanho" name="tamanho" required>
+  </div>
+  <div>
+    <label for="tipo">Tipo</label>
+    <select id="tipo" name="tipo" required>
+      <option value="tenis">Tênis</option>
+      <option value="sapato">Sapato</option>
+      <option value="sapatenis">Sapatenis</option>
+    </select>
+  </div>
+  <button type="submit">Cadastrar</button>
+</form>
